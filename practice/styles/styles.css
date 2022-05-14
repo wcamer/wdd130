@@ -7,3 +7,56 @@
     background-color: white;
     color: steelblue;
 }
+
+
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+footer, nav { /* this rule is being applied to both the selctoers "footer" and "nav"*/
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+}
+
+
+/* navigation links is the a tag and the 1.5 is 150% the size of the default 16px*/
+a {
+    font-size: 1.5em;
+}
+
+/* this will put a border around everything */
+/* * {
+    border: 2px solid blue 
+} */
+
+h1 {
+    text-align: center;
+}
+
+footer p {
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+
+/* nav { tthis is no longer needed because it is being declared earlier and has a rule set applied to it.
+    text-align: center;
+} */
+
+/* main p {
+    width: 80%;
+    margin: o auto;
+} */

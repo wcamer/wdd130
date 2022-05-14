@@ -1,0 +1,56 @@
+.head {
+    color: white;
+}
+
+.head:hover {
+    color: black;
+}
+
+h1 {
+    /*color: black;*/
+    font-size: 2em;
+}
+
+body {
+    background-color: darksalmon;
+    text-align: center;
+}
+
+div {
+    display:inline-block;
+    text-align: left;
+    margin: 0 auto;
+    font-weight: 1000;
+    letter-spacing: -.5px;
+    font-size: 1.25em
+}
+
+img{
+    display:block;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.firstQuote {
+
+    color: white;
+    font-size: 1.5em;
+}
+
+.signature {
+    color: white;
+}
+
+body .secondQuote {
+    display:inline-block;
+    width: 80%;
+    color: purple;
+    font-size: 1em;
+}
+
+
+body footer{
+    width: 50%;
+    font-size: .75em;
+    margin: 0 auto;
+}
