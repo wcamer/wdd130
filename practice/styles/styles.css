@@ -1,3 +1,6 @@
+
+
+
 .main-paragraph {
     font-size: 1.5em;
     line-height: 1.5em;
@@ -13,6 +16,7 @@ img {
     width: 80%;
     display: block;
     margin: 0 auto;
+    border: 4px solid steelblue;
 }
 
 main p {
@@ -21,16 +25,24 @@ main p {
     text-align: center;
 }
 
-footer, nav { /* this rule is being applied to both the selctoers "footer" and "nav"*/
+footer { /* this rule is being applied to both the selctoers "footer" and "nav"*/
     background-color: steelblue;
     color: white;
     text-align: center;
 }
 
 
+nav { /* this rule is being applied to both the selctoers "footer" and "nav"*/
+    background-color: steelblue;
+    padding: 25px;
+    text-align: center;
+}
+
 /* navigation links is the a tag and the 1.5 is 150% the size of the default 16px*/
 a {
+    color: white;
     font-size: 1.5em;
+    padding: 25px;
 }
 
 /* this will put a border around everything */
@@ -39,10 +51,17 @@ a {
 } */
 
 h1 {
+    margin: 50px 0;
     text-align: center;
 }
 
+footer{
+    background-color: steelblue;
+    color: white;
+}
+
 footer p {
+    padding: 25px;
     font-size: 20px;
     margin: 20px auto;
 }
@@ -50,6 +69,10 @@ footer p {
 a:hover {
     background-color: white;
     color: steelblue;
+}
+
+body{
+    margin: 0;
 }
 
 /* nav { tthis is no longer needed because it is being declared earlier and has a rule set applied to it.

@@ -1,0 +1,31 @@
+/* .hero-img{
+    width: 10px;
+}
+
+#hero-img{
+    width: 10px;
+} */
+
+body {
+    background-color: gray;
+    /* max-width: 1600px; */
+    width: 100%;
+    display: inline;
+    
+
+}
+
+img {
+    width: 100%;
+}
+
+#person, #desk, #graphic {
+    border-radius: 50%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: darkgray;
+    width: 30%;
+    margin: 10px solid black;
+    
+    
+}
