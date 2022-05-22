@@ -11,21 +11,30 @@ body {
     /* max-width: 1600px; */
     width: 100%;
     display: inline;
+
     
 
 }
 
 img {
     width: 100%;
+    /* margin: 300px black; */
+    margin: 0px,25%,25%,0px;
 }
+
+
 
 #person, #desk, #graphic {
     border-radius: 50%;
     border-width: 10px;
     border-style: solid;
     border-color: darkgray;
-    width: 30%;
-    margin: 10px solid black;
+    width: 25%;
+    margin: 50px;
+    
+    /* padding: 5px;
+    display: inline; */
+    
     
     
 }

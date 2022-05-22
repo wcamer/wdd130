@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada&family=Recursive:wght@600&family=Roboto&family=Rock+Salt&display=swap');
 main section img {
     box-sizing: border-box;
 }
@@ -13,7 +13,7 @@ main section img {
 }
 
 .home-title{
-    font-family: "Radio Canada", sans-serif;
+    font-family: "Radio Canada", "Roboto", sans-serif;
     font-size: 2em;
     margin-top: 10px;
     
@@ -29,7 +29,7 @@ nav a{
     text-align: center;
     color: white;
     text-decoration: none;
-    font-family: "Radio Canada", sans-serif;
+    font-family: "Radio Canada","Roboto", sans-serif;
     padding: 35px;
 }
 
@@ -44,7 +44,7 @@ nav a:hover{
 }
 
 h1{
-    font-family: "Rock Salt", cursive, serif;
+    font-family: "Rock Salt", "Recursive:wght@600", serif;
     
 }
 
@@ -62,7 +62,7 @@ main section {
 
 body{
     background-color: #197278;
-    font-family: "Radio Canada", sans-serif;
+    font-family: "Radio Canada","Roboto", sans-serif;
     /* color: limegreen; */
     font-size: 22px;
     padding: 0;
@@ -71,7 +71,7 @@ body{
 
 header{
     background-color: #c44536;
-    font-family: "rock salt",cursive, serif;
+    font-family: "rock salt","Recursive:wght@600", serif;
     
 }
 
@@ -80,14 +80,15 @@ header{
 .book{
     background-color: #283d3b;
     color:#edddd4;
-    font-family: "Radio Canada", sans-serif;
+    font-family: "Radio Canada","Roboto",sans-serif;
 }
 
 .join{
     background-color: #c44536;
     color:#edddd4;
     text-decoration: none;
-    font-family: "Radio Canada", sans-serif;
+    font-family: "Radio Canada","Roboto", sans-serif;
+    
 }
 
 .book, join{
@@ -128,7 +129,7 @@ header{
 }
 
 .msg h2{
-    font-family: "Rock Salt", cursive, serif;
+    font-family: "Rock Salt", "Recursive:wght@600", serif;
 }
 
 .msg p {
@@ -153,7 +154,7 @@ footer h3{
     color: #edddd4;
     text-decoration: none;
     /* color: yellow; */
-    font-family: "Radio Canada", sans-serif;
+    font-family: "Radio Canada","Roboto", sans-serif;
 }
 
 footer h3 a{
