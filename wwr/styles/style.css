@@ -250,10 +250,11 @@ footer h3{
 
 footer h3 a{
     color:#edddd4;
+    text-decoration: none;
 }
 
 footer h3 a:hover{
-    text-decoration: underline;
+    /* text-decoration: underline; */
 
     background-color: #283d3b;
     color: #edddd4;
@@ -261,6 +262,11 @@ footer h3 a:hover{
 
 footer .social img{
     padding-top: 15px;
+
+}
+
+footer .social a{
+    text-decoration: none;
 }
 /* footer a:hover{
     background-color: #283d3b;
