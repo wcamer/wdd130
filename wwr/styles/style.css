@@ -127,6 +127,21 @@ header{
     transform: scale(1.1);
 }
 
+.PDcard-img {
+    border: 10px solid #c44536;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px  #283d3b;
+    width: 100%;
+    max-height: 500px;
+    
+}
+
+
+.PDcard-img:hover {
+    opacity: .7;
+    transform: scale(1.1);
+}
+
 
 .rivers-card{
     grid-column: 2/4;
@@ -298,6 +313,14 @@ footer .social a{
 }
 
 
+#Grand-Canyon a, #Salmon-river a, #Desolation a {
+    color:#edddd4;
+}
+
+section a {
+    color: #edddd4;
+}
+
 .PDgrand-canyon{
     grid-column: 2/9;
     grid-row: 1/2;
@@ -310,14 +333,18 @@ footer .social a{
     grid-column: 2/9;
     grid-row: 3/4;
     width: 100%;
+    padding-bottom: 50px;
 }
 
 .PDdesolation{
     grid-column: 2/9;
     grid-row: 5/6;
     width: 100%;
+    
 
 }
+
+
 
 
 
